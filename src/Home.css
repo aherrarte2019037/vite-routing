@@ -1,0 +1,30 @@
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+.home-container h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.home-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.home-container a:hover {
+    text-decoration: underline;
+}
